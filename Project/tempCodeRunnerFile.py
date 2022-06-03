@@ -1,1 +1,0 @@
-self.Exit.clicked.connect(self.exit)
