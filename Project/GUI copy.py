@@ -47,7 +47,7 @@ class Display(QDialog):
         root=None
         current=0
         for i in range(len(ls)):
-            while(read[current]== " "):
+            while(read[current]== " " or read[current]=="\n"):
                 current+=1
             ls[i]=ls[i].lower()
             root=AVL.insert2(root,ls[i],len(ls[i]),current)
