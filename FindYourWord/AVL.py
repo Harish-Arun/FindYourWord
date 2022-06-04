@@ -163,25 +163,3 @@ def preOrder(root):
     preOrder(root.right)
 
   
-#Preorder Traversal
-# file = open("check.txt","r")
-# read=file.read()
-# ls=read.split()
-# root = None
-# current=0
-# for i in range(len(ls)):
-#   while(read[current] == " "):
-#     current = current + 1
-#   ls[i] = ls[i].lower()
-#   root= insert2(root, ls[i] ,len(ls[i]), current)
-#   current = current + len(ls[i])
-
-# #print(ls)
-# print("PREORDER TRAVERSAL : ")
-# print("")
-# preOrder(root)
-# key= input("Enter search value = ")
-# key = key.lower()
-# root2 = search(root, len(key))
-# position = search(root2.tree, key)
-# print(position.pos)    
